@@ -1,0 +1,8 @@
+{%if type == 'controller' %}
+    Controlller <code>{{controller}}</code> Not found In <code>controllers/</code> directory
+{% endif %}
+
+{%if type == 'action' %}
+    Action <code>{{action}}</code> Not found In <code>{{controller}}</code> Controller
+{% endif %}
+
