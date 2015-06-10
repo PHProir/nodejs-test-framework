@@ -21,6 +21,10 @@ module.exports = {
 Hello {{name}}
 ```
 ###run 
+`node index.js`
+
+then : 
+
 `localhost:8888/index/hello`
 #### output
  > my name is Saeed
